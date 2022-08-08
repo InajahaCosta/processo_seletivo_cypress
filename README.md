@@ -1,4 +1,4 @@
-<a href=<"https://front.serverest.dev/login">
+<ahref=<"https://front.serverest.dev/login">
 <img src="https://user-images.githubusercontent.com/29241659/115161869-6a017e80-a076-11eb-9bbe-c391eff410db.png" width=240>
 </a>
 
@@ -28,7 +28,7 @@ Para realizar os testes foi utilizado a plataforma [Cypress](https://cypress.com
 #### Clonando reposiótorio
 
 ```text
-git clone https://github.com/InajahaCosta/processo_seletivo_api
+git clone https://github.com/InajahaCosta/processo_seletivo_cypress
 ```
 
 #
