@@ -1,5 +1,5 @@
 {
-  "name": "cypress-cucumber-calculator",
+  "name": "cypress-loja",
   "version": "^1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,5 +14,6 @@
     "cypress-cucumber-preprocessor": "^2.5.2"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true  }
+    "nonGlobalStepDefinitions": true
+  }
 }

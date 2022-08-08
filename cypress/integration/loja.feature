@@ -1,19 +1,17 @@
-#language : pt
-funcionalidade: Loja
+@LOJA
+Feature: Como usuario, desejo realizar meu login.
 
-  Como usuario, desejo realizar meu login.
+Scenario: Login com sucesso
+  Given acesso pagina de login
+  When informo meu dados "fulano@qa.com" e "teste"
+  And clicar em entrar na conta
+  Then devo obter "sucesso"
 
-Cenario: Login
-  Dado que eu acesso a loja
-  E desejo realizar o login
-  When informo meu dados "login" e "senha"
-  And entrar conta
-  then devo obter o resultado
+Scenario: Login sem sucesso
+  Given acesso pagina de login
+  When informo meu dados "email invalido" e "teste"
+  And clicar em entrar na conta
+  Then devo obter "falha"
           
-Esquema do Cenario: fazer login
-  Dado que eu acesso o login
-  Quando informar os dados
-  E finalizar o login
-  Entao devo entrar no site
 
  
